@@ -1,0 +1,227 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header {
+    background-image: url(../refreshment/img/h1_hero1.jpg.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header .over-flow{
+    background-color: #ffda7024;
+}
+header .over-flow img{
+    width: 120px;
+    margin: 15px;
+}
+header .over-flow nav{
+    display: flex;
+    justify-content: center;
+    margin-top: -65px;
+    margin-left: 12%;
+}
+header .over-flow nav p{
+    color: white;
+    font-size: 13px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    margin: 16px 5px;
+}
+header .over-flow nav .right{
+    position: relative;
+    right: -12%;
+}
+header .over-flow nav a{
+    border-bottom: 2px dashed;
+    padding-bottom: 5px;
+}
+header .over-flow nav button{
+    text-transform: capitalize;
+    background-color: #f15b43;
+    margin: 15px 5px 5px 15%;
+    border: none;
+    color: white;
+    padding: 15px;
+}
+header .over-flow nav button i{
+    margin: 0px 2px 5px 0px;
+    font-size: 15px;
+}
+header .over-flow div button{
+    text-transform: capitalize;
+    background-color: #26b182;
+    border: none;
+    margin: 5% 10% 25%;
+    width: 40%;
+    height: 55px;
+    color: white;
+    font-size: 18px;
+}
+header .over-flow div h1{
+    color: white;
+    font-size: 50px;
+    font-family: emoji;
+    margin: 25% 10% 10%;
+    text-transform: capitalize;
+}
+header .over-flow div p{
+    color: white;
+    margin: 0% 10%;
+    font-size: 19px;
+    font-family: cursive;
+}
+header  .over-flow div{
+    width: 50%;
+}
+main{
+    display: flex;
+    width: 80%;
+    margin: 4% 12% 0%;
+}
+main div img{
+    width: 535px;
+    height: 371px;
+    margin: 10% -5%;
+}
+main div p{
+    width: 72%;
+    margin: 30px 0px 30px 25%;
+    color: gray;
+    font-size: 18px;
+}
+main div h2{
+    width: 70%;
+    color: #3e3e50;
+    margin-left: 25%;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+main div .upcoming{
+    color: #26b182;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin: 10% 25% 20px;
+}
+main div button{
+    background-color: white;
+    width: 30%;
+    height: 10%;
+    font-size: 20px;
+    text-transform: capitalize;
+    border: 1px solid #f53e21;
+    color: #f53e21;
+}
+main div .first{
+    background-color: #f53e21;
+    width: 30%;
+    height: 10%;
+    font-size: 20px;
+    text-transform: capitalize;
+    border: none;
+    color: white;
+    margin-left: 25%;
+}
+@media (max-width:767px){
+    header .over-flow img {
+        width: 100px;
+        margin: 10px;
+    }
+    header .over-flow nav {
+        margin-left: 21%;
+        margin-top: -53px;
+    }
+    header .over-flow nav p {
+        font-size: 8px;
+        padding: 10px 5px;
+        margin: 16px 0px;
+    }
+    header .over-flow nav .right {
+        right: 0%;
+    }
+    header .over-flow nav button {
+        margin: 15px 5px 5px 7%;
+        padding: 8px;
+    }
+    header .over-flow div h1 {
+        font-size: 35px;
+    }
+    header .over-flow div button {
+        font-size: 13px;
+    }
+    main div img {
+        width: 350px;
+        height: 301px;
+        margin: 10% -5% 0px;
+    }
+    main div .upcoming {
+        font-size: 13px;
+        margin: 20% 25% 20px;
+    }
+    main div h2 {
+        width: 75%;
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+    main div p {
+        font-size: 13px;
+    }
+    main div button {
+        width: 39%;
+        font-size: 9px;
+    }
+    main div .first {
+        width: 43%;
+        font-size: 12px;
+        margin-left: 15%;
+    }
+}
+@media (max-width:1023px)  and (min-width:768px){
+    header .over-flow img {
+        width: 110px;
+        margin: 10px;
+    }
+    header .over-flow nav {
+        margin-top: -60px;
+        margin-left: 15%;
+    }
+    header .over-flow nav p {
+        font-size: 10px;
+        padding: 10px;
+        margin: 16px 2px;
+    }
+    main div img {
+        width: 450px;
+        height: 371px;
+        margin: 10% -5% 5px;
+    }
+    main div .upcoming {
+        margin: 15% 25% 20px;
+    }
+    main div h2 {
+        font-size: 22px;
+    }
+    main div p {
+        font-size: 15px;
+    }
+    main div .first {
+        font-size: 13px;
+    }
+    main div button {
+        font-size: 11px;
+    }
+}
+@media (min-width:1024px){
+    header .over-flow nav p {
+        padding: 10px 15px;
+        margin: 16px 3px;
+    }
+    main div .first {
+        font-size: 17px;
+    }
+    main div button {
+        font-size: 15px;
+    }
+}
